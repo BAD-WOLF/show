@@ -10,10 +10,10 @@
 
 
 function t(){
-    let variavel = window.document.getElementByTagName("input");
-    window.document.write(variavel.innerHTML);
+    const variavel = window.document.getSelector('input').value;
+    window.document.write(variavel);
 }
-let p = window.document.getElementsByTagName("p")[0];
-window.document.write(p.innerText);
+let p = window.document.getSelector("p").value;
+window.document.write(p);
 
 
