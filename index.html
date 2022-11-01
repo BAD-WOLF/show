@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <center>
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <input type="text" class="i1"></br>
+            <input type="text" class="i1"></br>
+            <button id="b">Clik Me</button>
+        </center>
+        <script>
+            let button   = document.querySelectorAll("#b")[0];
+            var desc     = document.createElement("p");
+            var p1       = document.createElement("p");
+            var p2       = document.createElement("p");
+            var p3       = document.createElement("p");
+            var p4       = document.createElement("p");
+            p1.innerHTML = "p1: testando paragrafo 1";
+            p2.innerHTML = "p2: testando paragrafo 2";
+            var i1       = document.querySelectorAll(".i1")[0].innerHTML;
+            var i2       = document.querySelectorAll(".i2")[0].innerHTML;
+            p3.innerHTML = `input1: ${i1}`;
+            p4.innerHTML = `input2: ${i2}`;
+
+            button.addEventListener("click", function(){
+                window.querySelectorAll("#d1")[0].appendChild(desc);
+                window.querySelectorAll("#d2")[0].appendChild(p1);
+                window.querySelectorAll("#d2")[0].appendChild(p2);
+                window.querySelectorAll("#d2")[0].appendChild(p3);
+                window.querySelectorAll("#d2")[0].appendChild(p4);
+            });
+        </script>
+    </body>
+
+</body>
