@@ -1,0 +1,6 @@
+{
+    "require": {
+        "telegram-bot/api": "^2.3",
+        "telegram-bot-php/core": "^1.0"
+    }
+}
