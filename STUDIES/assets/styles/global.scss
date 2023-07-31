@@ -1,0 +1,24 @@
+// assets/styles/global.scss
+
+// customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+.login {
+  margin: 1%;
+  button[type=submit] {
+    justify-content: center;
+  }
+}
+
+.register {
+  @extend .login;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images_to_images/images/quadro-poster-paisagem-04-detalhes-abaixo-para-imprimir.jpg");
+}
+

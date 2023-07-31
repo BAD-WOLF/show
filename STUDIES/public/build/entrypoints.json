@@ -1,0 +1,34 @@
+{
+  "entrypoints": {
+    "register_app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_bootstrap_dist_js_bootstrap_esm_js.js",
+        "/build/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/build/register_app.js"
+      ],
+      "css": [
+        "/build/register_app.css"
+      ]
+    },
+    "global_app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_bootstrap_dist_js_bootstrap_esm_js.js",
+        "/build/global_app.js"
+      ],
+      "css": [
+        "/build/global_app.css"
+      ]
+    },
+    "login_app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/login_app.js"
+      ],
+      "css": [
+        "/build/login_app.css"
+      ]
+    }
+  }
+}

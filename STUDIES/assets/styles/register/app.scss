@@ -1,0 +1,48 @@
+// assets/styles/global.scss
+
+// customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+body { 
+  display: flex;
+  // background-size: 50pt 50pt;
+  // background-image: url("../../images_to_images/images/modular-symfony-development-igniti-en.png");
+  background-image: url("https://img.freepik.com/fotos-gratis/ilustracao-de-formas-geometricas-com-luzes-de-laser-de-neon-otimo-para-fundos-e-papeis-de-parede_181624-32746.jpg?w=1380&t=st=1690658274~exp=1690658874~hmac=d906a6b443d5e47c129812830b21ec228825b98ab94ef8addf49939e61dda750");
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  // background-color: gray;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+@keyframes color-change {
+  0% {
+    background-image: url("https://img.freepik.com/fotos-gratis/ilustracao-de-formas-geometricas-com-luzes-de-laser-de-neon-otimo-para-fundos-e-papeis-de-parede_181624-32746.jpg?w=1380&t=st=1690658274~exp=1690658874~hmac=d906a6b443d5e47c129812830b21ec228825b98ab94ef8addf49939e61dda750");;
+  }
+  25% {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/06/13/19/15/1000_F_613191531_PwjCRBW9lJABqMCt3qCe3tSggAelGD46.jpg");
+  }
+  50% {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/06/03/17/38/1000_F_603173851_g8DeJdNv6HBMtBqpffyWqOKFLFKf4jFe.jpg");
+  }
+  75% {
+    background-color: url("https://as1.ftcdn.net/v2/jpg/06/19/35/68/1000_F_619356840_R8p4PwqDVei51xxWh6kxDj6RAxHS6j7F.jpg");
+  }
+  100% {
+    background-color: url("https://as1.ftcdn.net/v2/jpg/06/05/55/28/1000_F_605552820_Ny0B92DBsZasjkfxoc5hKXR4Jy0s4d55.jpg");
+  }
+}
+
+
+body {
+  animation: color-change 5s infinite; 
+}
+
+
+

@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Produto{% endblock %}
+
+{% block body %}
+    <h1>Produto</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ produto.id }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ produto.name }}</td>
+            </tr>
+            <tr>
+                <th>Amount</th>
+                <td>{{ produto.amount }}</td>
+            </tr>
+            <tr>
+                <th>Datetime</th>
+                <td>{{ produto.datetime ? produto.datetime|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_home_index') }}">back to list</a>
+
+    <a href="{{ path('app_home_edit', {'id': produto.id}) }}">edit</a>
+
+    {{ include('home/_delete_form.html.twig') }}
+{% endblock %}

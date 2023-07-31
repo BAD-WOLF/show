@@ -1,0 +1,27 @@
+
+###> symfony/framework-bundle ###
+STUDIES/.env.local
+STUDIES/.env.local.php
+STUDIES/.env.*.local
+STUDIES/config/secrets/prod/prod.decrypt.private.php
+STUDIES/public/bundles/
+STUDIES/var/
+STUDIES/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+STUDIES/phpunit.xml
+STUDIES/.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+STUDIES/.phpunit.result.cache
+STUDIES/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/webpack-encore-bundle ###
+STUDIES/node_modules/
+STUDIES/public/build/
+STUDIES/npm-debug.log
+STUDIES/yarn-error.log
+###< symfony/webpack-encore-bundle ###
