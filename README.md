@@ -1,4 +1,4 @@
-cdtrsssbf# Patchwork Ninja (versão realista 2025)
+# Patchwork Ninja (versão realista 2025)
 
 ## 1) Rede / anonimato
 
