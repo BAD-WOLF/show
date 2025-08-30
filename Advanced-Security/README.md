@@ -1,4 +1,5 @@
 # Patchwork Ninja (versão realista 2025)
+### Prezado(s), rogo que considerem o conteúdo que vos apresento; mesmo que não vos seja de imediato interessante ou cativante, asseguro que, não obstante, vos proporciona valioso e enriquecedor conhecimento
 
 ## 1) Rede / anonimato
 
